@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alix Montes — Marketing Strategist</title>
+    <title>Alix Montes — Strategist & Yoga Instructor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -260,6 +260,228 @@
             font-size: 15px;
         }
 
+        /* Yoga Section */
+        .yoga-section {
+            background: linear-gradient(180deg, var(--color-paper) 0%, #f5f3ee 100%);
+        }
+
+        .yoga-intro {
+            color: var(--color-muted);
+            max-width: 640px;
+            margin-bottom: 32px;
+            font-size: 17px;
+        }
+
+        .yoga-intro p {
+            margin-bottom: 16px;
+        }
+
+        .work-together {
+            background: white;
+            padding: 24px 28px;
+            border-radius: 8px;
+            margin-bottom: 48px;
+            max-width: 640px;
+        }
+
+        .work-together p {
+            color: var(--color-muted);
+            margin-bottom: 12px;
+        }
+
+        .work-together a {
+            color: var(--color-warm);
+            font-weight: 500;
+            border-bottom: 1px solid var(--color-warm);
+            transition: color 0.2s ease;
+        }
+
+        .work-together a:hover {
+            color: var(--color-ink);
+        }
+
+        .teaching-style {
+            margin-bottom: 48px;
+        }
+
+        .teaching-style-text {
+            color: var(--color-muted);
+            max-width: 640px;
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        /* Current Schedule */
+        .schedule-section {
+            margin-bottom: 48px;
+        }
+
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        .schedule-card {
+            background: white;
+            padding: 28px;
+            border-radius: 8px;
+        }
+
+        .schedule-card h4 {
+            font-family: var(--font-serif);
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 4px;
+        }
+
+        .schedule-card .location {
+            font-size: 14px;
+            color: var(--color-warm);
+            margin-bottom: 16px;
+        }
+
+        .schedule-card .location a {
+            color: var(--color-warm);
+            border-bottom: 1px solid var(--color-warm);
+        }
+
+        .schedule-card .location a:hover {
+            color: var(--color-ink);
+        }
+
+        .schedule-card ul {
+            list-style: none;
+            color: var(--color-muted);
+            font-size: 15px;
+        }
+
+        .schedule-card li {
+            margin-bottom: 8px;
+            padding-left: 16px;
+            position: relative;
+        }
+
+        .schedule-card li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--color-warm);
+        }
+
+        .teaching-grid {
+            display: grid;
+            gap: 40px;
+        }
+
+        .teaching-item {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--color-divider);
+        }
+
+        .teaching-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .teaching-meta {
+            font-size: 14px;
+            color: var(--color-muted);
+        }
+
+        .teaching-meta .studio {
+            font-weight: 500;
+            color: var(--color-ink);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .teaching-content p {
+            color: var(--color-muted);
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .teaching-content ul {
+            color: var(--color-muted);
+            font-size: 15px;
+            margin-left: 20px;
+        }
+
+        .teaching-content li {
+            margin-bottom: 8px;
+        }
+
+        .certifications {
+            margin-top: 48px;
+            padding-top: 48px;
+            border-top: 1px solid var(--color-divider);
+        }
+
+        .certifications h3 {
+            font-family: var(--font-serif);
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .cert-list {
+            color: var(--color-muted);
+            font-size: 15px;
+        }
+
+        .cert-list p {
+            margin-bottom: 8px;
+        }
+
+        /* Community Projects */
+        .community-section {
+            margin-top: 48px;
+            padding-top: 48px;
+            border-top: 1px solid var(--color-divider);
+        }
+
+        .community-section h3 {
+            font-family: var(--font-serif);
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+        .community-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .community-card {
+            padding: 28px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .community-card h4 {
+            font-family: var(--font-serif);
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        .community-card .date {
+            font-size: 13px;
+            color: var(--color-warm);
+            margin-bottom: 12px;
+        }
+
+        .community-card p {
+            font-size: 15px;
+            color: var(--color-muted);
+        }
+
         /* Newsletter */
         .newsletter-section {
             background: linear-gradient(135deg, #f5f3ee 0%, var(--color-paper) 100%);
@@ -307,6 +529,7 @@
             display: flex;
             gap: 40px;
             margin-top: 32px;
+            flex-wrap: wrap;
         }
 
         .contact-links a {
@@ -354,7 +577,8 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            nav { gap: 20px; }
+            nav { gap: 16px; }
+            nav a { font-size: 13px; }
             
             .about-content {
                 grid-template-columns: 1fr;
@@ -366,12 +590,21 @@
                 order: -1;
             }
 
-            .experience-item {
+            .experience-item,
+            .teaching-item {
                 grid-template-columns: 1fr;
                 gap: 12px;
             }
 
+            .schedule-grid {
+                grid-template-columns: 1fr;
+            }
+
             .newsletter-preview {
+                grid-template-columns: 1fr;
+            }
+
+            .community-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -389,6 +622,7 @@
             <nav>
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>
+                <a href="#yoga">Yoga</a>
                 <a href="#newsletter">Newsletter</a>
                 <a href="#contact">Contact</a>
             </nav>
@@ -487,6 +721,123 @@
             </div>
         </section>
 
+        <section id="yoga" class="yoga-section">
+            <div class="container">
+                <span class="section-label">Yoga</span>
+                <h2>Finding Flow: Creativity in Movement</h2>
+                
+                <div class="yoga-intro">
+                    <p>
+                        I'm a yoga instructor with over 10 years of experience in the fitness industry. As an instructor, I'm passionate about making yoga accessible to practitioners of all levels and leveraging the practice as a vehicle to build diverse communities.
+                    </p>
+                    <p>
+                        My introduction to yoga began with a 20-minute nap in savasana at age 12, but my journey truly took off after completing my 200-hour training at CorePower Yoga in 2014. Since then, I've taught at various studios and had the privilege of partnering with leading brands like Alo Yoga, lululemon, and Equinox.
+                    </p>
+                </div>
+
+                <div class="work-together">
+                    <p>Let's work together. I'm available for special group classes, events, and workshops.</p>
+                    <a href="#contact">Let's chat →</a>
+                </div>
+
+                <div class="teaching-style">
+                    <h3 style="font-family: var(--font-serif); font-size: 24px; font-weight: 400; margin-bottom: 20px;">Teaching Style</h3>
+                    <p class="teaching-style-text">
+                        I teach a power vinyasa style class with sequencing that is accessible to all levels, yet challenging enough to push any athlete out of their comfort zone. In my classes, expect to uncover something new about your practice while enjoying a vibrant mix of soothing yet energizing rhythms from genres like afro beats, Latin, R&B, and other international sounds.
+                    </p>
+                </div>
+
+                <div class="schedule-section">
+                    <h3 style="font-family: var(--font-serif); font-size: 24px; font-weight: 400; margin-bottom: 8px;">Current Schedule</h3>
+                    <div class="schedule-grid">
+                        <div class="schedule-card">
+                            <h4>Mimi Yoga</h4>
+                            <p class="location">Wynwood · <a href="https://mimiyoga.com/pages/studio" target="_blank">View Studio</a></p>
+                            <ul>
+                                <li>Mondays — Power at 6:30 PM</li>
+                                <li>Saturdays — Hip-Hop Flow at 11 AM</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card">
+                            <h4>Sol Yoga</h4>
+                            <p class="location">Sunset Harbor · <a href="https://solyogaflorida.com/class-schedule-sunset-harbour/" target="_blank">View Studio</a></p>
+                            <ul>
+                                <li>Thursdays — Sol Flow at 7 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="font-family: var(--font-serif); font-size: 24px; font-weight: 400; margin-bottom: 24px;">Teaching Experience</h3>
+                <div class="teaching-grid">
+                    <div class="teaching-item">
+                        <div class="teaching-meta">
+                            <span class="studio">Alo Yoga Studios</span>
+                            Washington, DC<br>
+                            June 2023 — Dec 2023
+                        </div>
+                        <div class="teaching-content">
+                            <p>Looking to expand their physical footprint and in-store experience, Alo began piloting yoga studios and opened their first sanctuary/store location in Washington, DC where I was selected to be on the inaugural team of instructors.</p>
+                            <ul>
+                                <li>Lead weekly power vinyasa classes with a regular attendance of 12–30 practitioners across all levels</li>
+                                <li>Curate studio experiences that are relaxing, welcoming, and designed for guests to be present by making tailored playlists, designing sequences, and bringing the ethos of the brand to life</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="teaching-item">
+                        <div class="teaching-meta">
+                            <span class="studio">CorePower Yoga</span>
+                            Washington, DC<br>
+                            May 2014 — Aug 2019
+                        </div>
+                        <div class="teaching-content">
+                            <p>This is where my journey as an instructor began. Upon completing my 200-hour training, I gradually worked my way from teaching beginners' classes to teaching three proprietary class formats at primetime slots on the schedule.</p>
+                            <ul>
+                                <li><strong>C1:</strong> Beginner's class to guide new practitioners through the fundamentals of vinyasa</li>
+                                <li><strong>C2:</strong> Intermediate–advanced format with custom sequences to support the growth of active and experienced practitioners</li>
+                                <li><strong>Sculpt:</strong> Yoga-based fitness class that incorporates weights and HIIT elements</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="community-section">
+                    <h3>Yoga, Music & Community</h3>
+                    <p style="color: var(--color-muted); margin-bottom: 24px; max-width: 640px;">
+                        The adage goes "You learn more about a person in an hour of play than in a year of conversation." As an instructor, former competitive swimmer, and active participant in group fitness, I've witnessed how shared experiences of movement can build communities. Noticing the power of music to make people from diverse communities feel welcome in yoga spaces that felt intimidating, I wanted to find a way to more intentionally fuse music and yoga together.
+                    </p>
+                    <div class="community-grid">
+                        <div class="community-card">
+                            <h4>Tan the Mat</h4>
+                            <p class="date">Community Initiative</p>
+                            <p>Born of a desire to get more people from Black and Brown communities interested in yoga and to expose experienced yoga practitioners to diverse cultures through music. Teamed up with friends to plan events, with our flagship program being a yoga class led to a live DJ. Planned over 6 sold-out events with over 30 yogis each.</p>
+                        </div>
+                        <div class="community-card">
+                            <h4>Vibras + Vinyasa</h4>
+                            <p class="date">Community Initiative</p>
+                            <p>Partnered with two friends looking for ways to connect to and share their cultural backgrounds through music and movement. Our signature event was co-leading a yoga sculpt class while a friend DJ'd live. The music selection—Latin, Caribbean, Afro Beats, and Arabic music—was a representation of our diverse backgrounds.</p>
+                        </div>
+                        <div class="community-card">
+                            <h4>Sunday Flow</h4>
+                            <p class="date">April 2020 — April 2021</p>
+                            <p>Shortly after my exit from CorePower, the COVID-19 pandemic led to a complete shutdown of gyms and fitness studios. With people looking for ways to stay active, I began leading weekly yoga classes on Zoom for free on Sunday mornings, building a community of over 100 people who took my virtual class live or on-demand.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications">
+                    <h3>Certifications & Training</h3>
+                    <div class="cert-list">
+                        <p>200-Hour Yoga Teacher Training, CorePower Yoga — May 2014</p>
+                        <p>50-Hour Yoga Teacher Training Extensions Course, CorePower Yoga — May 2014</p>
+                        <p>Yoga Alliance Member</p>
+                        <p style="margin-top: 16px;"><strong>Coaching Experience:</strong> Coach for 200-Hour Yoga Teacher Training (2016, 2017), CorePower Yoga Sculpt Teacher Training (2016), and Arm Balance & Inversions Workshops (2017)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="newsletter" class="newsletter-section">
             <div class="container">
                 <span class="section-label">Newsletter</span>
@@ -498,12 +849,12 @@
                 <div class="newsletter-preview">
                     <a href="https://reframingthebrief.substack.com" class="newsletter-card" target="_blank">
                         <span class="date">Recent</span>
-                        <h4>Drake's Post-Battle Career Strategy</h4>
+                        <h4>Drake: Charting the Course for a Comeback</h4>
                         <p>A strategic analysis of reputation management and brand repositioning.</p>
                     </a>
                     <a href="https://reframingthebrief.substack.com" class="newsletter-card" target="_blank">
                         <span class="date">Featured</span>
-                        <h4>Democratic Party Messaging</h4>
+                        <h4>The Democratic Party: Rebuilding the Muscle Memory for Bold Vision</h4>
                         <p>What political communications can learn from brand strategy frameworks.</p>
                     </a>
                 </div>
@@ -526,12 +877,12 @@
                 </p>
                 
                 <div class="contact-links">
-                    <a href="/cdn-cgi/l/email-protection#30515c59481e511e5d5f5e44554370575d51595c1e535f5d">
+                    <a href="mailto:alix.a.montes@gmail.com">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <rect x="2" y="4" width="20" height="16" rx="2"/>
                             <path d="M22 6l-10 7L2 6"/>
                         </svg>
-                        <span class="__cf_email__" data-cfemail="ccada0a5b4e2ade2a1a3a2b8a9bf8caba1ada5a0e2afa3a1">[email&#160;protected]</span>
+                        alix.a.montes@gmail.com
                     </a>
                     <a href="https://linkedin.com/in/alixmontes" target="_blank">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -541,9 +892,23 @@
                         </svg>
                         LinkedIn
                     </a>
+                    <a href="https://www.instagram.com/alixmontes/" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5"/>
+                            <circle cx="12" cy="12" r="4"/>
+                            <circle cx="18" cy="6" r="1.5" fill="currentColor" stroke="none"/>
+                        </svg>
+                        Instagram
+                    </a>
                 </div>
             </div>
         </section>
     </main>
 
-    <foot
+    <footer>
+        <div class="container">
+            <p>© 2026 Alix Montes. Built with intention.</p>
+        </div>
+    </footer>
+</body>
+</html>
